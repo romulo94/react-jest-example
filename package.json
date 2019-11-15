@@ -44,6 +44,9 @@
       "@testing-library/jest-dom/extend-expect",
       "jest-localstorage-mock"
     ],
+    "collectCoverageFrom": [
+      "!src/services/api.js"
+    ],
     "moduleNameMapper": {
       "^~/(.*)": "<rootDir>/src/$1"
     },
